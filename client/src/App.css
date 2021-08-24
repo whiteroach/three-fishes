@@ -1,0 +1,60 @@
+
+body{
+  background-color: #3178c6 ;
+  /* background-color: #f6b11d ; */
+  font-family: monospace;
+}
+.App {
+  text-align: center;
+}
+input, textarea{
+  border: 1px solid black;
+  background-color: inherit;
+}
+button{
+  border:1px solid black;
+  background-color: inherit;
+}
+.blogPost{
+  border: 1px solid black;
+  margin-bottom: 0.3rem;
+  width: 70%;
+} 
+.container-posts{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prosemirror-editor{
+ border: 1px solid black;
+ width: 100vh;
+ /* word-wrap: break-word;
+  white-space: pre-wrap;
+  white-space: break-spaces;
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+  position: relative;
+  padding: 4px 8px 4px 14px;
+  line-height: 1.2; */
+  outline: none;
+  word-wrap: break-word !important;
+
+}
+.prosemirror-toolbar{
+  
+}
+nav a{
+  padding: 0.5rem;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .main form{
+  max-width: 70%;
+} */

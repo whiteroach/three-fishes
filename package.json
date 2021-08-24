@@ -1,0 +1,16 @@
+{
+  "name": "three-fishes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix client\" \"npm run dev --prefix server\""
+  },
+  "author": "P.Simcic",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5"
+  },
+  "proxy":"http://localhost:8080"
+}
